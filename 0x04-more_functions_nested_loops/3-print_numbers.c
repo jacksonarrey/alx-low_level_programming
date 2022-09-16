@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
- * mul - multiply two integers
- * @a: first digit
- * @b: second digit
- * Return: return the product
+ * print_numbers - print digit character
+ *
+ * Return: void
  */
-
-int mul(int a, int b)
+void print_numbers(void)
 {
+	char j;
 
-	return (a * b);
+	for (j = '0'; j <= '9'; j++)
+	{
+		_putchar(j);
+
+	}
+	_putchar('\n');
 }
