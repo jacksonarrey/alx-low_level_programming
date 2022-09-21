@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  * _strcat - Concatenates the string pointed to by @src,
@@ -20,4 +20,3 @@ char *_strcat(char *dest, char *src)
 
 					return (dest);
 }
-Task 1 – 1-strncat.c
