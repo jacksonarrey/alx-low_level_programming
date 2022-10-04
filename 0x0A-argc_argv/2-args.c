@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main -> this is a function to print its name
- * @argc: argc parameter
- * @argv: an array of a command listed
- * Return: 0 for success
+ * main - prints all arguments it receives
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -12,8 +14,8 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf(" %s\n", argv[]);
-
+		printf("%s\n", argv[i]);
 	}
-	return (0); 
+
+	return (0);
 }
