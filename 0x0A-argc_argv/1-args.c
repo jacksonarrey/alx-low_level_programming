@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main -> this is a function that prints its name
  * argc: argc parameter
